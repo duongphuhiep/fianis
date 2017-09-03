@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "website", "website\website.csproj", "{3ACFC33B-6160-4805-BC6F-2DC20840482A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webapi", "webapi\webapi.csproj", "{94741922-604B-4A82-9947-86254B910F67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CF472AF5-9924-46DE-9FE7-E3BFE03A3413}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +16,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3ACFC33B-6160-4805-BC6F-2DC20840482A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3ACFC33B-6160-4805-BC6F-2DC20840482A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3ACFC33B-6160-4805-BC6F-2DC20840482A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3ACFC33B-6160-4805-BC6F-2DC20840482A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94741922-604B-4A82-9947-86254B910F67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94741922-604B-4A82-9947-86254B910F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94741922-604B-4A82-9947-86254B910F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94741922-604B-4A82-9947-86254B910F67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
