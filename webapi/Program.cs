@@ -21,7 +21,7 @@ namespace webapi
                 .MinimumLevel.Debug()
                 .MinimumLevel.Override("Microsoft", LogEventLevel.Information)
                 .Enrich.FromLogContext()
-                .WriteTo.RollingFileAlternate(logDirectory: @".\Logs", outputTemplate: @"{Timestamp:HH:mm:ss.fff} {Level:u3}  {Message}  [{context}]{NewLine}{Exception}")
+                .WriteTo.RollingFileAlternate(logDirectory: "./Logs", outputTemplate: @"{Timestamp:HH:mm:ss.fff} {Level:u3}  {Message}  [{context}]{NewLine}{Exception}")
                 .CreateLogger();
             try
             {
